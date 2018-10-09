@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/bg_blue"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan pilih bangun datar :"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Persegi"
+        android:background="@color/bg_button"
+        android:textColor="#fff"
+        android:onClick="luasPersegi"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Persegi panjang"
+        android:background="@color/bg_button"
+        android:textColor="#fff"
+        android:onClick="LuasPersegiPanjang"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Lingkaran"
+        android:background="@color/bg_button"
+        android:textColor="#fff"
+        android:onClick="LuasLingkaran"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Segitiga"
+        android:background="@color/bg_button"
+        android:textColor="#fff"
+        android:onClick="LuasSegitiga"/>
+</LinearLayout>
+
+

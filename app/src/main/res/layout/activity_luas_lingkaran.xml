@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuasLingkaranActivity"
+    android:orientation="vertical"
+    android:background="@color/bg_blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hitung Luas lingkaran"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColorHint="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Rumus : Pi * Jari jari * Jari jari"
+        android:layout_gravity="center"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edtJariJari"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="input Jari jari"
+        android:textColorHint="#fff"
+        android:gravity="center"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="80dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hitung"
+        android:background="@color/bg_button"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>

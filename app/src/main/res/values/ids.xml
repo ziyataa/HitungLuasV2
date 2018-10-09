@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtLebar" type="id" />
+    <item name="edtPanjang" type="id" />
+    <item name="edtAlasSegitiga" type="id" />
+    <item name="edtTinggiSegitiga" type="id" />
+    <item name="txtHasilLingkaran" type="id" />
+    <item name="btnHitungLingkaran" type="id" />
+</resources>
